@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45DF52EB194238DC0022D87F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DF52EA194238DC0022D87F /* Foundation.framework */; };
+		45DF52ED194238DC0022D87F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DF52EC194238DC0022D87F /* CoreGraphics.framework */; };
+		45DF52EF194238DC0022D87F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DF52EE194238DC0022D87F /* UIKit.framework */; };
+		45DF52F5194238DC0022D87F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45DF52F3194238DC0022D87F /* InfoPlist.strings */; };
+		45DF52F7194238DC0022D87F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DF52F6194238DC0022D87F /* main.m */; };
+		45DF52FB194238DC0022D87F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DF52FA194238DC0022D87F /* AppDelegate.m */; };
+		45DF52FE194238DC0022D87F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DF52FC194238DC0022D87F /* Main_iPhone.storyboard */; };
+		45DF5301194238DC0022D87F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DF52FF194238DC0022D87F /* Main_iPad.storyboard */; };
+		45DF5304194238DC0022D87F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DF5303194238DC0022D87F /* FirstViewController.m */; };
+		45DF5307194238DC0022D87F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DF5306194238DC0022D87F /* SecondViewController.m */; };
+		45DF5309194238DD0022D87F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DF5308194238DD0022D87F /* Images.xcassets */; };
+		45DF5310194238DD0022D87F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DF530F194238DD0022D87F /* XCTest.framework */; };
+		45DF5311194238DD0022D87F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DF52EA194238DC0022D87F /* Foundation.framework */; };
+		45DF5312194238DD0022D87F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DF52EE194238DC0022D87F /* UIKit.framework */; };
+		45DF531A194238DD0022D87F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45DF5318194238DD0022D87F /* InfoPlist.strings */; };
+		45DF531C194238DD0022D87F /* yellophoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DF531B194238DD0022D87F /* yellophoneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45DF5313194238DD0022D87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45DF52DF194238DC0022D87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45DF52E6194238DC0022D87F;
+			remoteInfo = yellophone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45DF52E7194238DC0022D87F /* yellophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yellophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DF52EA194238DC0022D87F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45DF52EC194238DC0022D87F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45DF52EE194238DC0022D87F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45DF52F2194238DC0022D87F /* yellophone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yellophone-Info.plist"; sourceTree = "<group>"; };
+		45DF52F4194238DC0022D87F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45DF52F6194238DC0022D87F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45DF52F8194238DC0022D87F /* yellophone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yellophone-Prefix.pch"; sourceTree = "<group>"; };
+		45DF52F9194238DC0022D87F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45DF52FA194238DC0022D87F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45DF52FD194238DC0022D87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		45DF5300194238DC0022D87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		45DF5302194238DC0022D87F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		45DF5303194238DC0022D87F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		45DF5305194238DC0022D87F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		45DF5306194238DC0022D87F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		45DF5308194238DD0022D87F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45DF530E194238DD0022D87F /* yellophoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yellophoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DF530F194238DD0022D87F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		45DF5317194238DD0022D87F /* yellophoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yellophoneTests-Info.plist"; sourceTree = "<group>"; };
+		45DF5319194238DD0022D87F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45DF531B194238DD0022D87F /* yellophoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yellophoneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45DF52E4194238DC0022D87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DF52ED194238DC0022D87F /* CoreGraphics.framework in Frameworks */,
+				45DF52EF194238DC0022D87F /* UIKit.framework in Frameworks */,
+				45DF52EB194238DC0022D87F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DF530B194238DD0022D87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DF5310194238DD0022D87F /* XCTest.framework in Frameworks */,
+				45DF5312194238DD0022D87F /* UIKit.framework in Frameworks */,
+				45DF5311194238DD0022D87F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45DF52DE194238DC0022D87F = {
+			isa = PBXGroup;
+			children = (
+				45DF52F0194238DC0022D87F /* yellophone */,
+				45DF5315194238DD0022D87F /* yellophoneTests */,
+				45DF52E9194238DC0022D87F /* Frameworks */,
+				45DF52E8194238DC0022D87F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45DF52E8194238DC0022D87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45DF52E7194238DC0022D87F /* yellophone.app */,
+				45DF530E194238DD0022D87F /* yellophoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45DF52E9194238DC0022D87F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45DF52EA194238DC0022D87F /* Foundation.framework */,
+				45DF52EC194238DC0022D87F /* CoreGraphics.framework */,
+				45DF52EE194238DC0022D87F /* UIKit.framework */,
+				45DF530F194238DD0022D87F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45DF52F0194238DC0022D87F /* yellophone */ = {
+			isa = PBXGroup;
+			children = (
+				45DF52F9194238DC0022D87F /* AppDelegate.h */,
+				45DF52FA194238DC0022D87F /* AppDelegate.m */,
+				45DF52FC194238DC0022D87F /* Main_iPhone.storyboard */,
+				45DF52FF194238DC0022D87F /* Main_iPad.storyboard */,
+				45DF5302194238DC0022D87F /* FirstViewController.h */,
+				45DF5303194238DC0022D87F /* FirstViewController.m */,
+				45DF5305194238DC0022D87F /* SecondViewController.h */,
+				45DF5306194238DC0022D87F /* SecondViewController.m */,
+				45DF5308194238DD0022D87F /* Images.xcassets */,
+				45DF52F1194238DC0022D87F /* Supporting Files */,
+			);
+			path = yellophone;
+			sourceTree = "<group>";
+		};
+		45DF52F1194238DC0022D87F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45DF52F2194238DC0022D87F /* yellophone-Info.plist */,
+				45DF52F3194238DC0022D87F /* InfoPlist.strings */,
+				45DF52F6194238DC0022D87F /* main.m */,
+				45DF52F8194238DC0022D87F /* yellophone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45DF5315194238DD0022D87F /* yellophoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				45DF531B194238DD0022D87F /* yellophoneTests.m */,
+				45DF5316194238DD0022D87F /* Supporting Files */,
+			);
+			path = yellophoneTests;
+			sourceTree = "<group>";
+		};
+		45DF5316194238DD0022D87F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45DF5317194238DD0022D87F /* yellophoneTests-Info.plist */,
+				45DF5318194238DD0022D87F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45DF52E6194238DC0022D87F /* yellophone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DF531F194238DD0022D87F /* Build configuration list for PBXNativeTarget "yellophone" */;
+			buildPhases = (
+				45DF52E3194238DC0022D87F /* Sources */,
+				45DF52E4194238DC0022D87F /* Frameworks */,
+				45DF52E5194238DC0022D87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yellophone;
+			productName = yellophone;
+			productReference = 45DF52E7194238DC0022D87F /* yellophone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45DF530D194238DD0022D87F /* yellophoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DF5322194238DD0022D87F /* Build configuration list for PBXNativeTarget "yellophoneTests" */;
+			buildPhases = (
+				45DF530A194238DD0022D87F /* Sources */,
+				45DF530B194238DD0022D87F /* Frameworks */,
+				45DF530C194238DD0022D87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45DF5314194238DD0022D87F /* PBXTargetDependency */,
+			);
+			name = yellophoneTests;
+			productName = yellophoneTests;
+			productReference = 45DF530E194238DD0022D87F /* yellophoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45DF52DF194238DC0022D87F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andrew Boryk";
+				TargetAttributes = {
+					45DF530D194238DD0022D87F = {
+						TestTargetID = 45DF52E6194238DC0022D87F;
+					};
+				};
+			};
+			buildConfigurationList = 45DF52E2194238DC0022D87F /* Build configuration list for PBXProject "yellophone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45DF52DE194238DC0022D87F;
+			productRefGroup = 45DF52E8194238DC0022D87F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45DF52E6194238DC0022D87F /* yellophone */,
+				45DF530D194238DD0022D87F /* yellophoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45DF52E5194238DC0022D87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DF5301194238DC0022D87F /* Main_iPad.storyboard in Resources */,
+				45DF5309194238DD0022D87F /* Images.xcassets in Resources */,
+				45DF52FE194238DC0022D87F /* Main_iPhone.storyboard in Resources */,
+				45DF52F5194238DC0022D87F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DF530C194238DD0022D87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DF531A194238DD0022D87F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45DF52E3194238DC0022D87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DF5307194238DC0022D87F /* SecondViewController.m in Sources */,
+				45DF52FB194238DC0022D87F /* AppDelegate.m in Sources */,
+				45DF5304194238DC0022D87F /* FirstViewController.m in Sources */,
+				45DF52F7194238DC0022D87F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DF530A194238DD0022D87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DF531C194238DD0022D87F /* yellophoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45DF5314194238DD0022D87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45DF52E6194238DC0022D87F /* yellophone */;
+			targetProxy = 45DF5313194238DD0022D87F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45DF52F3194238DC0022D87F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DF52F4194238DC0022D87F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45DF52FC194238DC0022D87F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DF52FD194238DC0022D87F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		45DF52FF194238DC0022D87F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DF5300194238DC0022D87F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		45DF5318194238DD0022D87F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DF5319194238DD0022D87F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45DF531D194238DD0022D87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45DF531E194238DD0022D87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45DF5320194238DD0022D87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yellophone/yellophone-Prefix.pch";
+				INFOPLIST_FILE = "yellophone/yellophone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45DF5321194238DD0022D87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yellophone/yellophone-Prefix.pch";
+				INFOPLIST_FILE = "yellophone/yellophone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		45DF5323194238DD0022D87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/yellophone.app/yellophone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yellophone/yellophone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "yellophoneTests/yellophoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		45DF5324194238DD0022D87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/yellophone.app/yellophone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yellophone/yellophone-Prefix.pch";
+				INFOPLIST_FILE = "yellophoneTests/yellophoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45DF52E2194238DC0022D87F /* Build configuration list for PBXProject "yellophone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DF531D194238DD0022D87F /* Debug */,
+				45DF531E194238DD0022D87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45DF531F194238DD0022D87F /* Build configuration list for PBXNativeTarget "yellophone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DF5320194238DD0022D87F /* Debug */,
+				45DF5321194238DD0022D87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45DF5322194238DD0022D87F /* Build configuration list for PBXNativeTarget "yellophoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DF5323194238DD0022D87F /* Debug */,
+				45DF5324194238DD0022D87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45DF52DF194238DC0022D87F /* Project object */;
+}
