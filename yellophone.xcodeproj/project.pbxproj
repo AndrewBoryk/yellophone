@@ -180,9 +180,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4538734619ECDFB600252C63 /* MessageUI.framework in Frameworks */,
 				4518C32A1947F3A600FBE752 /* StoreKit.framework in Frameworks */,
 				4518C3251947F3A600FBE752 /* CoreLocation.framework in Frameworks */,
-				4538734619ECDFB600252C63 /* MessageUI.framework in Frameworks */,
 				451D05211984BDD4008DB086 /* AVFoundation.framework in Frameworks */,
 				451D051F1984BDC9008DB086 /* CoreMedia.framework in Frameworks */,
 				451D051D1984BBD4008DB086 /* MediaPlayer.framework in Frameworks */,
@@ -236,36 +236,9 @@
 		4538734319EC69C400252C63 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				4518C3341947FA3300FBE752 /* loginViewController.h */,
-				4518C3351947FA3300FBE752 /* loginViewController.m */,
-				45AF420119E5F7EF008DD95C /* completeTableController.h */,
-				45AF420219E5F7EF008DD95C /* completeTableController.m */,
-				45007D521986149500227D62 /* friendProfileViewController.h */,
-				45007D531986149500227D62 /* friendProfileViewController.m */,
-				451D05191984B05D008DB086 /* imageViewController.h */,
-				451D051A1984B05D008DB086 /* imageViewController.m */,
-				45AF420A19E86A64008DD95C /* PageContentViewController.h */,
-				45AF420B19E86A65008DD95C /* PageContentViewController.m */,
-				45AF420D19E86ADC008DD95C /* pageRootViewController.h */,
-				45AF420E19E86ADC008DD95C /* pageRootViewController.m */,
-				45AF41FE19E5F51B008DD95C /* settingsController.h */,
-				45AF41FF19E5F51B008DD95C /* settingsController.m */,
-				4599742A19F04CEC00DC7AA1 /* contributeController.h */,
-				4599742B19F04CEC00DC7AA1 /* contributeController.m */,
-				459692701975D86A0080F2B4 /* voicemailViewController.h */,
-				459692711975D86A0080F2B4 /* voicemailViewController.m */,
-				45AC1F5B1981FB4E00053F38 /* ChallengeViewController.h */,
-				45AC1F5C1981FB4E00053F38 /* ChallengeViewController.m */,
-				451D050C19820C30008DB086 /* CameraViewController.h */,
-				451D050D19820C30008DB086 /* CameraViewController.m */,
-				4596927B197A583D0080F2B4 /* SearchContactsViewController.h */,
-				4596927C197A583D0080F2B4 /* SearchContactsViewController.m */,
-				4518C3401948C4C900FBE752 /* FriendsViewController.h */,
-				4518C3411948C4C900FBE752 /* FriendsViewController.m */,
-				459692781977AB270080F2B4 /* userProfileViewController.h */,
-				459692791977AB280080F2B4 /* userProfileViewController.m */,
-				4538734719ECE0FC00252C63 /* emailController.h */,
-				4538734819ECE0FC00252C63 /* emailController.m */,
+				45CA9F061B4EDE410024039F /* Login Signup */,
+				45CA9F071B4EDE6C0024039F /* Main Controllers */,
+				45CA9F081B4EDE940024039F /* Settings Views */,
 			);
 			name = Files;
 			sourceTree = "<group>";
@@ -297,6 +270,81 @@
 				45B5251919F1621100D4814F /* Comfortaa-Regular.ttf */,
 			);
 			name = fonts;
+			sourceTree = "<group>";
+		};
+		45CA9F061B4EDE410024039F /* Login Signup */ = {
+			isa = PBXGroup;
+			children = (
+				4518C3341947FA3300FBE752 /* loginViewController.h */,
+				4518C3351947FA3300FBE752 /* loginViewController.m */,
+			);
+			name = "Login Signup";
+			sourceTree = "<group>";
+		};
+		45CA9F071B4EDE6C0024039F /* Main Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45CA9F0A1B4EDF110024039F /* Voicemail Tab */,
+				45CA9F091B4EDEF90024039F /* Friends Tab */,
+				45CA9F0B1B4EDF2E0024039F /* User Tab */,
+			);
+			name = "Main Controllers";
+			sourceTree = "<group>";
+		};
+		45CA9F081B4EDE940024039F /* Settings Views */ = {
+			isa = PBXGroup;
+			children = (
+				45AF420A19E86A64008DD95C /* PageContentViewController.h */,
+				45AF420B19E86A65008DD95C /* PageContentViewController.m */,
+				45AF41FE19E5F51B008DD95C /* settingsController.h */,
+				45AF41FF19E5F51B008DD95C /* settingsController.m */,
+				45AF420D19E86ADC008DD95C /* pageRootViewController.h */,
+				45AF420E19E86ADC008DD95C /* pageRootViewController.m */,
+				4599742A19F04CEC00DC7AA1 /* contributeController.h */,
+				4599742B19F04CEC00DC7AA1 /* contributeController.m */,
+				4538734719ECE0FC00252C63 /* emailController.h */,
+				4538734819ECE0FC00252C63 /* emailController.m */,
+			);
+			name = "Settings Views";
+			sourceTree = "<group>";
+		};
+		45CA9F091B4EDEF90024039F /* Friends Tab */ = {
+			isa = PBXGroup;
+			children = (
+				4518C3401948C4C900FBE752 /* FriendsViewController.h */,
+				4518C3411948C4C900FBE752 /* FriendsViewController.m */,
+				4596927B197A583D0080F2B4 /* SearchContactsViewController.h */,
+				4596927C197A583D0080F2B4 /* SearchContactsViewController.m */,
+				45007D521986149500227D62 /* friendProfileViewController.h */,
+				45007D531986149500227D62 /* friendProfileViewController.m */,
+			);
+			name = "Friends Tab";
+			sourceTree = "<group>";
+		};
+		45CA9F0A1B4EDF110024039F /* Voicemail Tab */ = {
+			isa = PBXGroup;
+			children = (
+				459692701975D86A0080F2B4 /* voicemailViewController.h */,
+				459692711975D86A0080F2B4 /* voicemailViewController.m */,
+				45AC1F5B1981FB4E00053F38 /* ChallengeViewController.h */,
+				45AC1F5C1981FB4E00053F38 /* ChallengeViewController.m */,
+				451D050C19820C30008DB086 /* CameraViewController.h */,
+				451D050D19820C30008DB086 /* CameraViewController.m */,
+				451D05191984B05D008DB086 /* imageViewController.h */,
+				451D051A1984B05D008DB086 /* imageViewController.m */,
+			);
+			name = "Voicemail Tab";
+			sourceTree = "<group>";
+		};
+		45CA9F0B1B4EDF2E0024039F /* User Tab */ = {
+			isa = PBXGroup;
+			children = (
+				459692781977AB270080F2B4 /* userProfileViewController.h */,
+				459692791977AB280080F2B4 /* userProfileViewController.m */,
+				45AF420119E5F7EF008DD95C /* completeTableController.h */,
+				45AF420219E5F7EF008DD95C /* completeTableController.m */,
+			);
+			name = "User Tab";
 			sourceTree = "<group>";
 		};
 		45DF52DE194238DC0022D87F = {
@@ -351,12 +399,10 @@
 		45DF52F0194238DC0022D87F /* yellophone */ = {
 			isa = PBXGroup;
 			children = (
-				45B5251619F161EE00D4814F /* fonts */,
 				45DF52F9194238DC0022D87F /* AppDelegate.h */,
 				45DF52FA194238DC0022D87F /* AppDelegate.m */,
-				4538734419EC6A5F00252C63 /* Cells */,
 				4538734319EC69C400252C63 /* Files */,
-				4518C3451949822E00FBE752 /* Images */,
+				4538734419EC6A5F00252C63 /* Cells */,
 				45DF52FC194238DC0022D87F /* Main_iPhone.storyboard */,
 				45DF5308194238DD0022D87F /* Images.xcassets */,
 				45DF52F1194238DC0022D87F /* Supporting Files */,
@@ -367,6 +413,8 @@
 		45DF52F1194238DC0022D87F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4518C3451949822E00FBE752 /* Images */,
+				45B5251619F161EE00D4814F /* fonts */,
 				45DF52F2194238DC0022D87F /* yellophone-Info.plist */,
 				45DF52F3194238DC0022D87F /* InfoPlist.strings */,
 				45DF52F6194238DC0022D87F /* main.m */,

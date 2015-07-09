@@ -10,7 +10,9 @@
 #import <Parse/Parse.h>
 #import "CameraViewController.h"
 #import "completeTableController.h"
+
 @interface imageViewController : UIViewController <UIAlertViewDelegate>
+
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @property (strong, nonatomic) PFObject *inboxCall;
 @property (strong, nonatomic) NSString *isComplete;

@@ -11,7 +11,7 @@
 #import <MessageUI/MFMailComposeViewController.h>
 #import <MessageUI/MessageUI.h>
 
-@interface settingsController : UIViewController
+@interface settingsController : UIViewController <MFMailComposeViewControllerDelegate, MFMessageComposeViewControllerDelegate>
 - (IBAction)logOutUserHere:(id)sender;
 - (IBAction)advertiseRequest:(id)sender;
 - (IBAction)contactUs:(id)sender;
